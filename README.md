@@ -17,3 +17,7 @@ Check these if you have any doubt's:
 https://github.com/IAnjy/meet-clone/tree/master/public/Assets
 https://github.com/yves1da2vinci3/google_meet_clone/tree/main/public/
 Rep Search: https://github.com/search?q=google+meet+clone+socket.io&type=repositories
+
+Wached till 30:26
+
+added style="padding-right: 3.5rem;" this in body, not started .jumbotron in style
