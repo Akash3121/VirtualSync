@@ -1,0 +1,14 @@
+body{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: large;
+}
+
+.logo{
+    height: 43px;
+}
+
+.navbar-brand{
+    font-size: 27px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
