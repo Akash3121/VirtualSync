@@ -6,6 +6,7 @@ Download & Install Node.js
 then open terminal npm init, click enter all times if its stops running(it asks for something)
 next enter `npm install express socket.io`
 
+Update Start Script:
 In the package.json, under scripts, remove test and add start, see below
 "scripts": {
     "start": "node server"
