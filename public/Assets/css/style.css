@@ -2,7 +2,11 @@ body{
     font-family: 'Times New Roman', Times, serif !important;
     font-size: large;
 }
-
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .logo{
     height: 43px;
 }
@@ -35,4 +39,10 @@ li.nav-item{
     border: 25px solid white;
     border-radius: 5px;
     box-shadow: 1px 1px 5px grey;
+}
+textarea:focus, input:focus{
+    outline: none !important;
+}
+.cursor-pointer{
+    cursor: pointer;
 }
