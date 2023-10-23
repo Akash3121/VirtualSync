@@ -25,3 +25,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+li.nav-item{
+    padding: 0 10px;
+}
