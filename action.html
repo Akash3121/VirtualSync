@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="public/Assets/css/style.css">
 </head>
-<body style="padding-right: 3.5rem;">
+<body style="padding-top: 3.5rem;">
     <nav class="navbar navbar-expand-md fixed-top">
         <img src="public/Assets/images/google-meet-icon.png" class="logo" alt="">
         <a href="#" class="navbar-brand text-dark">Google Meet</a>
@@ -29,7 +29,7 @@
                     <a href="#" class="nav-link">Sign in</a>
                 </li>
                 <li class="nav-item">
-                    <button class="btn btn-outline-secondary btn-lg text-info font-weight-bold">Join the meeting</button>
+                    <button class="btn btn-outline-secondary btn-lg text-info font-weight-bold join-meeting">Join the meeting</button>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-lg btn-info text-light font-weight-bold">Start a meeting</button>
@@ -51,10 +51,10 @@
                     <li class="pl-3">
                         <button class="btn btn-large btn-outline-secondary text-dark font-weight-bold display-center" style="background-color: white;">
                             <span class="material-icons mr-2">keyboard</span>
-                            <input type="text" placeholder="Enter a code" style="border: none;">
+                            <input type="text" placeholder="Enter a code" style="border: none;" class="enter-code">
                         </button>
                     </li>
-                    <li class="text-dark font-weight-bold cursor-pointer pl-2">Join</li>
+                    <li class="text-dark font-weight-bold cursor-pointer pl-2 join-action">Join</li>
                 </ul>
             </div>
             <div class="container w-50">
@@ -62,5 +62,23 @@
             </div>
         </div>
     </main>
+    <footer class="container">
+        <h6>Learn more about <span class="learn-more text-info">
+            google meet
+        </span></h6>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $(document).on("click", ".join-meeting", function(){
+                $(".enter-code").focus();
+            })
+            $(document).on("click", ".join-action", function(){
+                var join_value = $(".enter-code").val();
+                var meetingUrl = window.location.origin+"?meetingID="+join_value;
+                window.location.replace(meetingUrl);
+            })
+        })
+    </script>
 </body>
 </html>
