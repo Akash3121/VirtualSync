@@ -70,4 +70,7 @@ textarea:focus, input:focus{
 .g-top-left{
     position: absolute;
     right: 0;
+    height: 8vh;
+    top: 0;
+    border-bottom-left-radius: 10px;
 }
