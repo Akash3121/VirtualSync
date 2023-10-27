@@ -114,3 +114,7 @@ textarea:focus, input:focus{
 .action-icon-style span.material-icons{
     /* font-size: 18px; */
 }
+.end-call-wrap{
+    -ms-transform: rotate(135deg); 
+    transform: rotate(135deg);
+}
