@@ -52,3 +52,9 @@ textarea:focus, input:focus{
 }
 
 /*......................Index Page..........................*/
+.home-wrap{
+    background-color: rgb(31,30,30);
+}
+.g-top{
+    height: 90vh;
+}
