@@ -103,3 +103,6 @@ textarea:focus, input:focus{
     position: relative;
     padding: 5px;
 }
+.action-icon-style {
+    height: 40px;
+}
