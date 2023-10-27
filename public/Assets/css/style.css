@@ -85,4 +85,5 @@ textarea:focus, input:focus{
     cursor: pointer;
     padding: 5px;
     background-color: rgb(226,225,225);
+    border-radius: 5px;
 }
