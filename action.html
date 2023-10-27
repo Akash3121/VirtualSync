@@ -79,7 +79,7 @@
                 window.location.replace(meetingUrl);
             })
             $(document).on("click", ".new-meeting", function(){
-                var eight_d_value = Math.floor(Math.random() * 100000000);
+                var eight_d_value = Math.floor(Math.random() * 100000000); // we will get some thing like 12345678.456, so using the floor function will only give 8digit no
                 var meetingUrl = window.location.origin+"?meetingID="+eight_d_value;
                 window.location.replace(meetingUrl);
             })
