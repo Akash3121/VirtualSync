@@ -59,4 +59,7 @@ textarea:focus, input:focus{
     height: 90vh;
     position: relative;
 }
+.video-wrap{
+    height: 600px;
+}
 
