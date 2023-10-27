@@ -67,4 +67,7 @@ textarea:focus, input:focus{
     flex: 1 1 250px; /* flex-grow, flex-shrink, flex basis */
     border: 1px solid white;
 }
-
+.g-top-left{
+    position: absolute;
+    right: 0;
+}
