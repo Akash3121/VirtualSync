@@ -46,3 +46,7 @@ textarea:focus, input:focus{
 .cursor-pointer{
     cursor: pointer;
 }
+
+.jumbotron {
+    background-color: white;
+}
