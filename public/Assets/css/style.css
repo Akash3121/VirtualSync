@@ -57,4 +57,5 @@ textarea:focus, input:focus{
 }
 .g-top{
     height: 90vh;
+    position: relative;
 }
