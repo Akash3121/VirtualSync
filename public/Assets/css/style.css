@@ -89,4 +89,7 @@ textarea:focus, input:focus{
 }
 .top-left-participant-count{
     position: absolute;
+    top: -2px;
+    right: -3px;
+    font-size: 15px;
 }
