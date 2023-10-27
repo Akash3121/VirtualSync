@@ -110,3 +110,7 @@ textarea:focus, input:focus{
     border: 1px solid lightgray;
     border-radius: 50%;
 }
+
+.action-icon-style span.material-icons{
+    /* font-size: 18px; */
+}
