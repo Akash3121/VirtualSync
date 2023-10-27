@@ -87,3 +87,6 @@ textarea:focus, input:focus{
     background-color: rgb(226,225,225);
     border-radius: 5px;
 }
+.top-left-participant-count{
+    position: absolute;
+}
