@@ -1,7 +1,7 @@
 var MyApp = (function(){
 
     function init(uid, mid){
-        
+        alert("From App js")
     }
 
 
