@@ -75,5 +75,14 @@ textarea:focus, input:focus{
     border-bottom-left-radius: 10px;
 }
 .top-left-participant-wrap{
-    
+    position: relative;
+}
+.cursor-pointer{
+    cursor: pointer;
+    padding: 5px;
+}
+.cursor-pointer:hover{
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(226,225,225);
 }
