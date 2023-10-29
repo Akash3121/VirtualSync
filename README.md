@@ -38,4 +38,4 @@ var MyApp ={
 }; 
 as this is giving some errors, continue with the one above, let's see what happens.
 
-**Push into the branch, not main**
+**Push into the *Server&Socket.ioSetUp* branch, not main**
