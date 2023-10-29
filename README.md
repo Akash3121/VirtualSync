@@ -12,7 +12,6 @@ In the package.json, under scripts, remove test and add start, see below
     "start": "node server"
   },
 
-
 Check these if you have any doubt's:
 https://github.com/IAnjy/meet-clone/tree/master/public/Assets
 https://github.com/yves1da2vinci3/google_meet_clone/tree/main/public/
