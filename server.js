@@ -5,5 +5,5 @@ var server = app.listen(3000, function(){
     console.log("Listening on port 30000");
 });
 
-const io = require(socket.io)(server);
+const io = require("socket.io")(server);
 app.use(express.static(path.join(__dirname, "")));
