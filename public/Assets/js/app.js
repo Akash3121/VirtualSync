@@ -8,7 +8,7 @@ var MyApp = (function(){
 
     var socket = null;
     function event_process_for_signaling_server(){
-        socket = io.connect;
+        socket = io.connect();
         socket.on("connect", ()=>{
             alert("socket connected to client side");
         })
