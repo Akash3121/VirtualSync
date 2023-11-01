@@ -7,10 +7,10 @@ var server = app.listen(3000, function(){
 });
 
 const io = require("socket.io")(server, {
-    allowEI03: true,
-});
+    allowEIO3: true // false by default
+  });
 app.use(express.static(path.join(__dirname, "")));
 
-io.on("connection", (Socket)=>{
-    console.log("socket id is ", socket.io);
+io.on("connection", (socket)=>{
+    console.log("socket id is ", socket.id);
 })
