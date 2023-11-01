@@ -12,12 +12,30 @@ In the package.json, under scripts, remove test and add start, see below
     "start": "node server"
   },
 
-
 Check these if you have any doubt's:
 https://github.com/IAnjy/meet-clone/tree/master/public/Assets
 https://github.com/yves1da2vinci3/google_meet_clone/tree/main/public/
 Rep Search: https://github.com/search?q=google+meet+clone+socket.io&type=repositories
 
-Wached till 30:26
+Wached till 1:36:24
 
-added style="padding-right: 3.5rem;" this in body, not started .jumbotron in style
+added 
+var MyApp ={
+    _init: function (uid, mid) {
+        alert("From App js");
+    }
+}; instead of
+var MyApp ={
+    function init (uid, mid) {
+         alert("From App js");
+    }
+
+    return {
+        _init: function(uid, mid){
+             init(uid, mid);
+         },
+     }
+}; 
+as this is giving some errors, continue with the one above, let's see what happens.
+
+**Push into the *Server&Socket.ioSetUp* branch, not main**
