@@ -10,5 +10,5 @@ const io = require("socket.io")(server);
 app.use(express.static(path.join(__dirname, "")));
 
 io.on("connection", (Socket)=>{
-    console.log("socket id is ", socket.id);
+    console.log("socket id is ", socket.io);
 })
